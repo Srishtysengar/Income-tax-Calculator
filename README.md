@@ -8,12 +8,13 @@ The Tax Calculator is a web application designed to help individuals estimate th
 * Input validation to ensure that only numerical values are entered.
 * Support for different age groups to calculate tax rates accordingly.
 * Modal pop-up displaying the calculated tax result.
+![Screenshot 2024-04-12 135610](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/2f866d1f-66fc-4443-a01d-b35d45c1ce48)
   
 ## Usage
 * Clone the repository:
-bash
-Copy code
+```bash
 git clone <repository_url>
+```
 * Open the index.html file in a web browser.
 * Fill in the required information:
   1. Gross annual income: Enter your total salary before any deductions.
@@ -30,6 +31,7 @@ git clone <repository_url>
 * Enter total applicable deductions of Rs. 5,000.
 * Click the "Submit" button.
 Expected Result: The tax calculator should display the total income after the tax deduction in a modal pop-up.
+![Screenshot 2024-04-12 135948](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/acef4e05-0582-4e12-b789-0ecc2fff0821)
 
 
 ### Test Case 2: Invalid Inputs
@@ -40,7 +42,12 @@ Expected Result: The tax calculator should display the total income after the ta
 * Enter total applicable deductions of $10,000.
 * Click the "Submit" button.
 * Expected Result: In this condition when any one of the field is left empty the it will show an error as "please fill out this feild" .
-* 
+![Screenshot 2024-04-12 135735](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/3d4a576f-b93e-4dc4-af65-359975ab9591)
+
+![Screenshot 2024-04-12 135845](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/5f5ad311-1490-4362-9b31-0c6c6edb9161)
+
+
+
 #### Case 2
 * Enter a gross annual income of "abc" (non-numeric).
 *  Enter extra income of Rs. 1,00,000.
@@ -48,6 +55,9 @@ Expected Result: The tax calculator should display the total income after the ta
 * Enter total applicable deductions of $10,000.
 * Click the "Submit" button.
 * Expected Result: In this condition when  any one of the field is non numeric then it will show error in the tooltip.
+![Screenshot 2024-04-12 140149](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/7727931a-de94-45b2-817a-d0466cd9882d)
+
+![Screenshot 2024-04-12 140215](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/982f1346-df13-4edc-a143-b2014446a1ac)
 
 
 ## Technologies Used
@@ -58,6 +68,3 @@ Expected Result: The tax calculator should display the total income after the ta
 ## Credits
 This project was created by Srishty Sengar.
 
-
-
-* Expected Result: In this condition when one of the field is left empty the it will show an error as "please fill out this feild" .
