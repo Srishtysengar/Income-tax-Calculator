@@ -11,10 +11,7 @@ The Tax Calculator is a web application designed to help individuals estimate th
 ![Screenshot 2024-04-12 135610](https://github.com/Srishtysengar/Income-tax-Calculator/assets/109545642/2f866d1f-66fc-4443-a01d-b35d45c1ce48)
   
 ## Usage
-* Clone the repository:
-```bash
-git clone <repository_url>
-```
+
 * Open the index.html file in a web browser.
 * Fill in the required information:
   1. Gross annual income: Enter your total salary before any deductions.
